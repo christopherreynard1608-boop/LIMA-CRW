@@ -1,0 +1,546 @@
+.bgabu {background-color: gray;}
+    .tombol{background-color: blue;
+    color: white;}
+    .tombol:hover{background-color: red;
+    color: white;}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    width: 97%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    padding-top: 16px;
+    padding-right: 32px;
+}
+.logo{
+    margin-right: 720px;
+}
+.headbutton{
+    font-weight: bold; 
+    background-color: white; 
+    color: black;
+    padding: 9.6px 28.8px;
+    margin-left: 24px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+.headbutton:hover{font-weight: bold; background-color: black; color: white;}
+.headburger{
+    margin-left: 28.8px;
+}
+
+.en{
+    color: white;
+    padding: 11.2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.id{
+    color: gray;
+    padding: 11.2px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+figure{
+    margin: 0;
+}
+
+.bannerimage{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+
+.bannertext{
+    position: absolute;
+    bottom: 80px;
+    left: 240px;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+
+.highlight{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.highlightimage{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 240px;
+    width:  640;
+    height: 360;
+}
+
+.highlighttext h2{
+    font-weight: normal;
+    padding-top: 160px;
+    margin-left: 64px;
+    color: white;
+    font-size: 35px;
+}
+
+.highlightbutton{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 1px;
+    margin-top: -16px;
+    margin-left: 64px;
+    padding: 8px 14px;
+}
+.highlightbutton:hover{
+    color: black;
+    background-color: white;
+}
+
+.featured{
+    background-color: #F2F2F2;
+}
+
+.featuredtitle{
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: static;
+    gap: 50rem;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.featuredtitle h2{
+    position: relative;
+    font-size: 38px;
+    font-weight: lighter;
+    margin-left: 3rem ;
+    margin-bottom: -3rem;
+}
+
+.featuredsubtitle{
+    background-color: #F2F2F2;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.featuredtitle p{
+    font-size: 18px;
+}
+
+.featuredbutton{
+    position: relative;
+    font-size: larger;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 0.6rem 1.5rem;
+}
+
+.featuredtable1{
+    background-color: #F2F2F2;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.featuredtable2{
+    background-color: #F2F2F2;
+    display: flex;
+    margin-left: 2rem;
+}
+.featuredimage{
+    position: relative;
+    border-radius: 10px;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.featuredimage img{
+    border-radius: 5px;
+    z-index: 0;
+}
+
+.featuredtext{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: -4rem;
+    margin-left: 1rem;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.moreprograms{
+    display: flex;
+    flex-direction: column;
+    background: #444;
+    padding: 5rem 3rem;
+    min-height: 150px;
+}
+
+.moreprogramsheaders{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: -4rem;
+    padding-left: 3rem;
+}
+
+.moreprograms h2{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.moreprograms p{
+    color: white;
+    font-size: 1rem;
+    margin-left: 0.2rem;
+}
+
+.filters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 8rem;
+}
+
+.filters select{
+    background-color: #444;
+    border: 1px solid #aaa;
+    color: white;
+    padding: 0.8rem 2.5rem;
+    border-radius: 8px;
+}
+
+.filters input[type="search"]{
+    background-color: #444;
+    border: 1px solid #aaa;
+    text-align: left;
+    color: white;
+    padding-top: 0.8rem;
+    padding-left: 2rem ;
+    padding-right: 8rem;
+    padding-bottom: 0.8rem;
+    border-radius: 8px;
+}
+
+
+.filters input[type="button"]{
+    background-color: white;
+    border: 1px solid #aaa;
+    color: #444;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+}
+.filters input[type="button"]:hover{
+    
+    background-color: black;
+    color: white;
+
+}
+
+.uphlateststories{
+    max-width: 80rem;
+    margin-left: 3rem;
+}
+
+.uphlateststories h2{
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.uphlateststories p{
+    margin-top: -15px;
+}
+
+.storiestable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.maincell{
+    width: 25%;
+    vertical-align: top;
+    padding-right: 40px;
+}
+
+.sidebar{
+    width: 25%;
+    vertical-align: top;
+}
+
+.mainimage{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.secondarytext{
+    vertical-align: text-top;
+}
+
+.secondarycell img{
+    width: 220px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-right: 2rem;
+}
+
+.secondarytable td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+h5{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+h5 span{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.maintitle{
+    font-size: 20px;
+}
+
+.uphtestimony{
+    background-color: black;
+    color: white;
+    padding: 40px 60px;
+}
+
+.testimonytable{
+    width: 100%;
+    table-layout: fixed; 
+}
+
+.whatalumnisay{
+    text-align: left;
+    width: 600px;
+    
+}
+
+.testimonybutton{
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 1px;
+    margin-top: 15px;
+    margin-left: 180px;
+    padding: 0.6rem 2rem;
+}
+.testimonybutton:hover{
+    color: black;
+    background-color: white;
+}
+
+.whatalumnisay h2{
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: -100px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.whatalumnisay p{
+    font-weight: normal;
+    margin-left: 180px;
+}
+
+.testimonialscroll{
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;  
+    padding-bottom: 10px; 
+}
+
+.testimonycardcontainer {
+    width: auto;
+}
+
+.testimonycard{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    width: 680px;
+    height: 160px;
+    display: inline-table;
+    margin-right: 30px;
+}
+
+.testimonycard img{
+    height: 200px;
+}
+
+.quote{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+p{
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.uphcontact{
+    background-color: white;
+    color: black;
+    padding: 40px 60px;
+}
+
+.contacttable{
+    width: 100%;
+    table-layout: fixed; 
+}
+
+.instagram{
+    text-align: left;
+    width: 600px;
+    
+}
+
+.instagram h2{
+    font-size: 38px;
+    font-weight: normal;
+    margin-top: -100px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.instagram p{
+    font-weight: normal;
+    margin-left: 185px;
+    text-decoration: underline;
+}
+
+.contactscroll{
+    display: block;
+    overflow-x: auto;
+    padding-bottom: 10px; 
+}
+
+.contactcardcontainer {
+    width: auto;
+}
+
+.card{
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    display: inline-table;
+}
+
+.card img{
+    margin: -10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+.card img:hover{
+    filter: grayscale(0%);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding: left 40px; ;
+    font-family: sans-serif;
+}
+
+.footerlayout {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    border-bottom: white;
+}
+
+.footerlogo{
+    padding-left: 50px;
+}
+
+.footerrow td{
+    vertical-align: top;
+    padding-right: 20px;
+}
+
+.footerrow td h3{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footerrow td ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footerrow td ul li {
+    margin-bottom: 10px;
+}
+
+.footerrow td a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.bottomsection {
+    width: 100%;
+    font-size: 0.8rem;
+    color: #B6B6B6;
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.social-icons a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,7 @@
+ .bgabu {background-color: gray;
+    }
+    .tombol{background-color: blue;
+    color: white;
+    }
+    .tombol:hover{background-color: red;
+    color: white;}

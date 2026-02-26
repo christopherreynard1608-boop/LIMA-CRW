@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="perish">
+    <meta name="author" content="chris">
+    <title>Document</title>
+
+    <link 
+    rel="apple-touch-icon"
+    sizes="180x180" 
+    href="/asset/image/logo/apple-touch-icon.png"
+    />
+
+
+    <link 
+    rel="icon" 
+    type="image/png" 
+    sizes="32x32" 
+    href="/asset/image/logo/favicon-32x32.png"
+    />
+
+    <link 
+    rel="icon" 
+    type="image/png" 
+    sizes="16x16" 
+    href="/asset/image/logo/favicon-16x16.png"
+    />
+
+    <link 
+    rel="manifest" 
+    href="/asset/image/logo/site.webmanifest"\
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+    
+    .bgabu {background-color: gray;
+    }
+    .tombol{background-color: blue;
+    color: white;
+    }
+    .tombol:hover{background-color: red;
+    color: white;}
+    .navbar{display: flex;
+    }
+    .kiri{width: 25%;
+    }
+    .tengah{width: 40%;
+    }
+    .kanan{width: 35%;
+    }
+    #product {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .card{ background-color: aqua;
+        height: 200px;
+        text-align: center;
+    }
+    .caption{
+    }
+    .card img{text-align: center;
+    height: 50px;}
+    #blog {
+        display: flex;
+        gap: 15px;
+    }
+    .blogcontent{
+        width: 25%;
+    }
+    #banner{
+        position: relative;/*kunci*/
+        }
+        .img-banner{
+            width: 100%;
+        display: block; /*kunci*/
+        }
+        .img-caption{
+            position: absolute; /*kunci*/
+            bottom: 50px;
+            color: red;
+            font-size: 16px;
+            z-index: 1; /*kunci*/
+        }
+</style>
+
+</head>
+<body style="font-family: roboto">
+    <header style="background-color: gray;">
+<nav>
+    <div class="kiri"><img src="image/logo_microsoft/logo_msc.png" alt="logo microsoft" 
+    width="100px"></div>
+    <div class="tengah"></div>
+    <div class="kanan"><span><a style="color: white; text-decoration: none;" href="https://www.microsoft.com/id-id/microsoft-365" target="_blank" rel="noopener noreferrer">Microsoft 365</a></span>
+    <span><a style="color: white; text-decoration: none;" href="https://copilot.microsoft.com/" target="_blank" rel="noopener noreferrer">Copilot</a></span>
+    <span><a style="color: white; text-decoration: none;" href="https://www.microsoft.com/en/microsoft-teams/group-chat-software" target="_blank" rel="noopener noreferrer">Teams</a></span>
+    <span><a style="color: white; text-decoration: none;" href="https://www.xbox.com/id-ID/" target="_blank" rel="noopener noreferrer">Xbox</a></span>
+    <span><a style="color: white; text-decoration: none;" href="https://support.microsoft.com/id-id" target="_blank" rel="noopener noreferrer">Dukungan </a></span></div>
+</nav>
+
+    </header>
+    <section id="banner">
+        <div><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Hero-Windows11-GlobalLaunch:VP2-859x540" alt="windows 11 di laptop" width="100%" height="459px">
+        </div> <div> <h1>Dirancang untuk saat ini <br> 
+            dan masa mendatang</h1>
+        <p>Generasi terbaru dari game. Tujuanmu. Teman dan keluarga. Windows 11 <br>
+            diciptakan agar Anda lebih dekat dengan semua orang yang Anda sayangi.</p>
+            <button type=""></button></div>
+        
+
+       
+            
+    </section>
+    <section id="product">
+<div>
+    <div class="card"><img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+                alt="icon ms"
+                width="40px"
+                height="40px"></div>
+
+                <div class="caption"><a href="https://www.microsoft.com/id-id/microsoft-365/buy/compare-all-microsoft-365-products?icid=MSCOM_QL_M365">Pilih Microsoft 365 Anda</a></div>
+</div>
+                
+       <div><div class="card"><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/QuickLink-Controller-with-Badge-80x80?wid=40&hei=40"
+        alt="simbol game"
+        width="40px"
+        height="40px"></div>
+<div class="caption"><a href="https://www.xbox.com/id-id?icid=MSCOM_QL_Games">Beli Game PC dan PC Game Pass</a></div>
+</div></div> 
+
+<div><div class="caption"></div>
+        <div class="card"><img src="https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Link-List-Icons-Microsoft-365?wid=40&hei=40"
+        alt="logo ms2"
+        width="40px"height="40px"></div>
+    <div class="caption"><a href="https://www.microsoft.com/en-gb/windows/get-windows-11?icid=MSCOM_QL_Windows&r=1">Dapatkan Windows 11</a></div>
+</div></div>
+
+    </section>
+
+    <section id="blog">
+        <div class="blogcontent">
+            <div>
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-PC-SMB-OneNote?wid=406&hei=230&fit=crop&resSharp=1" alt="OneNote di layar tablet">
+            </div>
+            <div>
+                <h2>OneNote</h2>
+                <p>Kelola catatan dan hidup Anda.</p>
+                <div class="articlebutton">
+                    <input type="button" value="Pelajari selengkapnya">
+                </div>
+            </div>
+        </div>
+        <div class="blogcontent">
+            <div>
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Soft-CP-OneDriveCampaignRefresh-2?wid=406&hei=230&fit=crop&resSharp=1" alt="Seorang wanita menggunakan laptop Windows 10 dengan OneDrive">
+            </div>
+            <div>
+                <h2>Microsoft OneDrive</h2>
+                <p>Simpan file serta foto ke OneDrive dan akses dari perangkat apa saja, di mana saja.</p>
+                <div class="articlebutton">
+                    <input type="button" value="Pelajari selengkapnya">
+                </div>
+            </div>
+        </div>
+        <div class="blogcontent">
+            <div>
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Bing-Wallpaper-Giants-Causeway?wid=406&hei=230&fit=crop&resSharp=1" alt="Laptop menampilkan pemandangan laut warna-warni dari Bing Wallpaper.">
+            </div>
+            <div>
+                <h2>Dekatkan dunia dengan Bing Wallpaper</h2>
+                <p>Unduh aplikasi gratis dan nikmati pemandangan menakjubkan berlatar belakang baru setiap hari.</p>
+                <div class="articlebutton">
+                    <input type="button" value="Dapatkan Wallpaper Bing">
+                </div>
+            </div>
+        </div>
+        <div class="blogcontent">
+           <div>
+                <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-MSFT-CP-Edge?wid=406&hei=230&fit=crop&resSharp=1" alt="Lanskap dengan logo Microsoft Edge melayang di atas air.">
+            </div>
+            <div>
+                <h2>Microsoft Edge</h2>
+                <p>Performa kelas dunia dengan lebih banyak privasi, produktivitas, dan nilai saat Anda menjelajah.</p>
+                <div class="articlebutton">
+                    <input type="button" value="Unduh sekarang">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="highlight">
+        <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Content-Card-PC-Game-Pass-Spring-2023:VP2-859x540"
+        alt="xbox game pass">
+    </section>
+
+    <section id="bisnis">
+        <table><tr>
+        <td><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Microsoft-365-Copilot-COMMR-0625?wid=406&amp;hei=230&amp;fit=crop&amp;resSharp=1"
+            alt="Antarmuka Copilot berkata, &quot;Hai, apa yang dapat saya bantu?&quot;"></td>
+        <td><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Azure-AI-Bloom?wid=406&amp;hei=230&amp;fit=crop&amp;resSharp=1"
+            alt=""></td>
+        <td><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Content-Card-Visual-Studio-Icon?wid=406&amp;hei=230&amp;fit=crop&amp;resSharp=1"
+            alt="Visual Studio Icon."></td>
+        <td><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/JIC-DPS-CP01?wid=406&amp;hei=230&amp;fit=crop&amp;resSharp=1"
+            alt="Seorang wanita di rumah mengakses layanan Cloud Windows 365"></td>
+            
+</tr></table> 
+<table>
+    <tr>        
+            <td>
+                <h2>Microsoft 365 Copilot</h2>
+                <p>Hemat waktu dan fokus pada hal yang paling penting dengan AI di Microsoft 365 untuk bisnis.</p>
+                <input type="button" value="Pelajari Selengkapnya">
+            </td>
+
+            <td>
+                <h2>Bergabunglah dengan era AI</h2>
+                <p>Buat, komunikasikan, dan buat kode dengan solusi Microsoft AI terbaru.</p>
+                <input type="button" value="Jelajahi solusi AI">
+            </td>
+
+            <td>
+                <h2>Visual Studio 2022</h2>
+                <p>Dapatkan IDE terlengkap untuk pengembang .NET dan C++ di Windows untuk membuat web, cloud, desktop, aplikasi seluler, layanan, dan game.</p>
+                <input type="button" value="Unduh Visual Studio 2022">
+            </td>
+
+            <td>
+                <h2>Selamat datang di PC Cloud Windows 365 Anda</h2>
+                <p>Streaming pengalaman Windows Anda dengan aman dari cloud Microsoft ke perangkat apa pun.</p>
+                <input type="button" value="Dapatkan sekarang">
+            </td>
+    </tr>
+</table>
+    </section>
+    <a href= "#banner">Kembali Keatas</a>  
+    <footer>footer kita</footer>
+</body>
+</html>
